@@ -6,8 +6,6 @@ import { Social } from "./Social"
 
 export const Home = () => {
 
- 
-
   return (
     <main className="h-screen w-full bg-radial-gradient bg-cover bg-center ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pb-8">

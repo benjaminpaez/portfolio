@@ -24,7 +24,7 @@ export const Social = () => {
       </a>
 
       <a
-        href="www.linkedin.com/in/benjaminpaez9"
+        href="https://www.linkedin.com/in/benjaminpaez9/"
         target="_blank"
         rel="noopener noreferrer"
         className="transition-transform hover:scale-110 hover:filter hover:bg-white"
