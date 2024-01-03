@@ -11,9 +11,9 @@ export const About = () => {
           </div>
           
           <p className="text-2xl mt-20 leading-10"> <span className="font-bold">¡Hola! </span>
-            Soy un desarrollador web con intereses en el diseño e implementación de
+            Soy un desarrollador web con interes en el diseño e implementación de
             aplicaciones innovadoras. Mi experiencia radica en aplicaciones web utilizando como base React,
-            complementando con diferentes tecnologías como Typescript, Material Ui, Tailwind. He trabajado en proyectos que involucran la integración con diferentes sistemas API y bases de datos. <br/>Mi habilidad para aprender de forma autodidacta, mi aptitud para asimilar nuevos conceptos y procesos, así como mi enfoque creativo para resolver problemas, son aspectos claves con los que impulso mi deseo constante de superación. <br/>¡Coordinemos una reunion para conversar sobre cómo puedo contribuir con mi entusiasmo y habilidades en su equipo de trabajo!
+            complementando con diferentes tecnologías como Typescript, Material Ui, Tailwind, entre otras. He trabajado en proyectos que involucran la integración con diferentes sistemas API y bases de datos. <br/>Mi habilidad para aprender de forma autodidacta, mi aptitud para asimilar nuevos conceptos y procesos, así como mi enfoque creativo para resolver problemas, son aspectos claves con los que impulso mi deseo constante de superación. <br/>¡Coordinemos una reunion para conversar sobre cómo puedo contribuir con mi entusiasmo y habilidades en tu equipo de trabajo!
           </p>
 
           
