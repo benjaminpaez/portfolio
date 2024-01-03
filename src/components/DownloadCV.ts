@@ -1,4 +1,4 @@
-import cv from "../assets/profile/Curriculum Vitae.pdf"
+import cv from "../assets/profile/CurriculumVitae.pdf"
 
 export const downloadCV = () => {
     const rutaPDF = cv
