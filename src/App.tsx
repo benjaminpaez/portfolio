@@ -63,11 +63,11 @@ function App() {
         <About />
       </AnimatedSection>
       <SocialLinks />
-      <AnimatedSection id='habilidades' >
-        <Skills />
-      </AnimatedSection>
       <AnimatedSection id='proyectos'>
         <Portfolio />
+      </AnimatedSection>
+      <AnimatedSection id='habilidades' >
+        <Skills />
       </AnimatedSection>
       <Footer />
     </>

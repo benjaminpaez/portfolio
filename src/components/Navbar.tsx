@@ -20,13 +20,13 @@ export const Navbar: React.FC<TNavbar> = ({ scrollToSection }) => {
     },
     {
       id: 3,
-      link: "Habilidades",
-      section: "habilidades",
+      link: "Proyectos",
+      section: "proyectos",
     },
     {
       id: 4,
-      link: "Proyectos",
-      section: "proyectos",
+      link: "Habilidades",
+      section: "habilidades",
     },
   ];
 
