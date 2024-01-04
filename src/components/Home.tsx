@@ -14,7 +14,7 @@ export const Home = () => {
           ¡Gracias por contactarme!
           </p>
       
-          <h1 className="text-4xl mt-1 sm:text-7xl font-bold text-orange-500 font-secondary py-4">
+          <h1 className="text-5xl mt-4 sm:text-7xl font-bold text-orange-500 font-secondary py-4">
            Desarrollador Web.  
           </h1>
 
@@ -22,7 +22,7 @@ export const Home = () => {
             <Social />
 
             <button
-              className="flex items-center gap-2 px-7 py-4  duration-150 bg-gradient-to-b from-[#d0d7de] to-[#afb8c1] font-bold rounded-lg border border-white hover:scale-95 hover:bg-gradient-to-r hover:from-[#033d8b] hover:to-[#0a3069] active:bg-indigo-700 hover:text-black mb-4 bg-slate-700 text-white hover:bg-slate-100"
+              className="flex items-center gap-2 px-7 py-4  duration-150 bg-slate-300  font-bold rounded-lg border border-white hover:scale-95 hover:bg-gradient-to-r hover:from-[#033d8b] hover:to-[#0a3069] active:bg-indigo-700 mb-4  text-slate-800 hover:bg-slate-500 hover:text-slate-100"
               onClick={downloadCV}
             >
               <IoDocumentText size={30} />
