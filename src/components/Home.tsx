@@ -14,7 +14,7 @@ export const Home = () => {
           ¡Gracias por contactarme!
           </p>
       
-          <h1 className="text-4xl mt-1 sm:text-7xl font-bold text-white font-secondary py-4 ">
+          <h1 className="text-4xl mt-1 sm:text-7xl font-bold text-orange-500 font-secondary py-4">
            Desarrollador Web.  
           </h1>
 
@@ -34,7 +34,7 @@ export const Home = () => {
           <img
             src={profile}
             alt="profile"
-            className="rounded-2xl w-2/3 sm:w-full md:w-full border p-1 mx-auto sm:mt-6"
+            className="rounded-2xl w-2/3 border sm:w-full md:w-full p-1 mx-auto sm:mt-6 "
           />
         </div>
         <div className="flex flex-col lg:absolute lg:bottom-0 animate-bounce">
