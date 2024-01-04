@@ -16,7 +16,7 @@ export const Portfolio = () => {
     <div className=" w-full md:h-screen text-white mt-10 lg:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-4">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Proyectos</p>
+          <p className="text-4xl font-bold inline border-b-4 border-orange-400">Proyectos</p>
           <p className="py-6 text-xl">Estos son algunos de los proyectos personales que he realizado</p>
         </div>
 

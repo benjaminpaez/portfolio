@@ -5,7 +5,7 @@ export const About = () => {
       <div id="about" className="w-full text-white">
         <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-6">
-            <h1 className="text-4xl font-bold inline border-b-4 border-gray-600 sm:text-center">
+            <h1 className="text-4xl font-bold inline border-b-4 border-orange-400 sm:text-center">
               Sobre mí
             </h1>
           </div>

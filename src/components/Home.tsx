@@ -22,7 +22,7 @@ export const Home = () => {
             <Social />
 
             <button
-              className="flex items-center gap-2 px-7 py-4  duration-150 bg-gradient-to-b from-[#d0d7de] to-[#afb8c1] font-bold rounded-lg border border-white hover:scale-95 hover:bg-gradient-to-r hover:from-[#033d8b] hover:to-[#0a3069] active:bg-indigo-700 hover:text-black mb-4 bg-slate-700 text-white"
+              className="flex items-center gap-2 px-7 py-4  duration-150 bg-gradient-to-b from-[#d0d7de] to-[#afb8c1] font-bold rounded-lg border border-white hover:scale-95 hover:bg-gradient-to-r hover:from-[#033d8b] hover:to-[#0a3069] active:bg-indigo-700 hover:text-black mb-4 bg-slate-700 text-white hover:bg-slate-100"
               onClick={downloadCV}
             >
               <IoDocumentText size={30} />
