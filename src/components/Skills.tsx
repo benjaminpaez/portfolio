@@ -1,12 +1,15 @@
-import html from "../assets/skills/icons-html.png";
-import css from "../assets/skills/icons-css-.png";
-import javascript from "../assets/skills/icons-javascript.png";
-import reactImage from "../assets/skills/icons-react.png";
+import html from "../assets/skills/icon-html.png";
+import css from "../assets/skills/icon-css-.png";
+import javascript from "../assets/skills/icon-javascript.png";
+import reactImage from "../assets/skills/icon-react.png";
 import typescript from "../assets/skills/icon-typescript.png";
-import python from "../assets/skills/icons-python.png";
-import github from "../assets/skills/icons-github1.png"
-import tailwind from "../assets/skills/icons-tailwind.png";
+import python from "../assets/skills/icon-python.png";
+import github from "../assets/skills/icon-github1.png"
+import tailwind from "../assets/skills/icon-tailwind.png";
 import mui from "../assets/skills/icon-material-ui.png"
+import next from "../assets/skills/icon-next.png"
+import django from "../assets/skills/icon-django.png"
+import postgres from "../assets/skills/icon-postgres.png"
 
 
 export const Skills = () => {
@@ -43,11 +46,11 @@ export const Skills = () => {
     },
     {
       id: 6,
-      src: python,
-      title: "Python",
-      style: "shadow-sky-400"
-      
+      src: next,
+      title: "Next js",
+      style: "shadow-gray-400",
     },
+    
     {
       id: 7,
       src: tailwind,
@@ -62,6 +65,25 @@ export const Skills = () => {
     },
     {
       id: 9,
+      src: python,
+      title: "Python",
+      style: "shadow-sky-400"
+      
+    },
+    {
+      id: 10,
+      src: django,
+      title: "Django",
+      style: "shadow-green-400",
+    },
+    {
+      id: 11,
+      src: postgres,
+      title: "Postgres",
+      style: "shadow-sky-600",
+    },
+    {
+      id: 12,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

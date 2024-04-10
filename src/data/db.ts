@@ -1,5 +1,5 @@
 import i1 from "../assets/images/pirela_page.jpg"
-import i2 from "../assets/images/paraelbajon.png"
+import i2 from "../assets/images/pampa-shop.png"
 import i3  from "../assets/images/hakernews.png"
 import i4 from "../assets/images/Calculadora.png"
 import i5 from "../assets/images/js-quizz.png"
@@ -33,10 +33,10 @@ const portfolio: PortfolioData = {
     {
       id: 2,
       imagen: i2,
-      titulo: "Local de comidas rapidas",
+      titulo: "Pampa | Tienda",
       descripcion:
-        "La finalidad de la pagina es visualizar los productos que ofrece el local y cargarlos a un carrito de compra",
-      link1: "https://tienshop.vercel.app",
+        "Tienda de ropas responsive, con filtros por categoría, checkin, carrito de compra. Utilizando next js y tailwind",
+      link1: "https://pampa-tienda.vercel.app/",
 
     },
     {
