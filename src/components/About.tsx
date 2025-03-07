@@ -1,22 +1,28 @@
-
 export const About = () => {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen gap-12 sm:p-2">
       <div id="about" className="w-full text-white">
-        <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="flex flex-col justify-center w-full h-full max-w-screen-md p-4 mx-auto">
           <div className="pb-6">
-            <h1 className="text-4xl font-bold inline border-b-4 border-orange-400 sm:text-center">
+            <h1 className="inline text-4xl font-bold border-b-4 border-orange-400 sm:text-center">
               Sobre mí
             </h1>
           </div>
-          
-          <p className="text-2xl mt-20 leading-10"> <span className="font-bold">¡Hola! </span>
-            Soy un desarrollador web con interes en el diseño e implementación de
-            aplicaciones innovadoras. Mi experiencia radica en aplicaciones web utilizando como base React,
-            complementando con diferentes tecnologías como Typescript, Material Ui, Tailwind, entre otras. He trabajado en proyectos que involucran la integración con diferentes sistemas API y bases de datos. <br/>Mi habilidad para aprender de forma autodidacta, mi aptitud para asimilar nuevos conceptos y procesos, así como mi enfoque creativo para resolver problemas, son aspectos claves con los que impulso mi deseo constante de superación. <br/>¡Coordinemos una reunion para conversar sobre cómo puedo contribuir con mi entusiasmo y habilidades en tu equipo de trabajo!
-          </p>
 
-          
+          <p className="mt-20 text-2xl leading-10">
+            {" "}
+            <span className="font-bold">¡Hola! </span>
+            Soy un desarrollador web con experiencia en la creación de
+            aplicaciones modernas y escalables. He trabajado en diversos
+            proyectos web , incluyendo e-commerce, blogs y sistemas de gestión,
+            utilizando tecnologías como React, Astro, Django y Tailwind. Además,
+            manejo bases de datos SQL y NoSQL e integración de APIs. <br />
+            Tengo conocimientos en análisis de datos con Python y Excel, área en
+            la que continúo perfeccionándome para ampliar mis capacidades en la
+            interpretación y procesamiento de información. <br />
+            ¡Coordinemos una reunion para conversar sobre cómo puedo contribuir
+            con mi entusiasmo y habilidades en tu equipo de trabajo!
+          </p>
         </div>
       </div>
 
@@ -37,4 +43,3 @@ export const About = () => {
     </section>
   );
 };
-

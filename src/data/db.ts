@@ -1,11 +1,9 @@
-import i1 from "../assets/images/pirela_page.jpg"
-import i2 from "../assets/images/pampa-shop.png"
-import i3  from "../assets/images/hakernews.png"
-import i4 from "../assets/images/Calculadora.png"
-import i5 from "../assets/images/js-quizz.png"
-import i6 from "../assets/images/argpr.png"
-
-
+import i1 from "../assets/images/pirela_page.jpg";
+import i2 from "../assets/images/pampa-shop.png";
+import i3 from "../assets/images/hakernews.png";
+import i4 from "../assets/images/Fech.jpg";
+import i5 from "../assets/images/js-quizz.png";
+import i6 from "../assets/images/Bankec.jpg";
 
 interface PortfolioItem {
   id: number;
@@ -13,7 +11,6 @@ interface PortfolioItem {
   titulo: string;
   descripcion: string;
   link1: string;
-
 }
 
 interface PortfolioData {
@@ -30,6 +27,24 @@ const portfolio: PortfolioData = {
         "Proyecto personal para mostrar los productos y los contactos de la empresa",
       link1: "https://page-pirela.vercel.app",
     },
+
+    {
+      id: 4,
+      imagen: i4,
+      titulo: "Blog Informativo",
+      descripcion:
+        "Su objetivo es promover y difundir festivales y eventos en la provincia del Chaco",
+      link1: "https://github.com/GabrielaMonta/blog-django.git",
+    },
+
+    {
+      id: 6,
+      imagen: i6,
+      titulo: "Billetera virtual",
+      descripcion:
+        "Aplicación web desarrollada en Django para gestionar el intercambio de dinero entre usuarios",
+      link1: "https://github.com/benjaminpaez/bankec.git",
+    },
     {
       id: 2,
       imagen: i2,
@@ -37,7 +52,6 @@ const portfolio: PortfolioData = {
       descripcion:
         "Tienda de ropas responsive, con filtros por categoría, checkin, carrito de compra. Utilizando next js y tailwind",
       link1: "https://pampa-tienda.vercel.app/",
-
     },
     {
       id: 3,
@@ -46,16 +60,6 @@ const portfolio: PortfolioData = {
       descripcion:
         "Pagina clon de HackerNews. El objetivo es la implementacion de componentes recursivos ",
       link1: "https://hacker-news-clone-smoky.vercel.app",
-
-    },
-    {
-      id: 4,
-      imagen: i4,
-      titulo: "Calculadora",
-      descripcion:
-        "Proyecto de una calculadora con la implementacion de dark mode",
-      link1: "https://calculator-psi-sandy.vercel.app",
-
     },
     {
       id: 5,
@@ -64,16 +68,6 @@ const portfolio: PortfolioData = {
       descripcion:
         "Preguntas de Javascript utilizando informacion de una API externa creada",
       link1: "https://javascript-quizz-rwh9.vercel.app",
-
-    },
-    {
-      id: 6,
-      imagen: i6,
-      titulo: "Todo List",
-      descripcion:
-        "Trabajo individual final del curso Argentina Programa 4.0",
-      link1: "https://app-todolist-nu.vercel.app",
-
     },
   ],
 };

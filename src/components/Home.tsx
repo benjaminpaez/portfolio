@@ -1,24 +1,23 @@
-import profile from "../assets/profile/image.jpg"
-import { downloadCV } from "./DownloadCV"
-import { IoDocumentText } from "react-icons/io5"
-import { MdKeyboardDoubleArrowDown } from "react-icons/md"
-import { Social } from "./Social"
+import profile from "../assets/profile/image.jpg";
+import { downloadCV } from "./DownloadCV";
+import { IoDocumentText } from "react-icons/io5";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import { Social } from "./Social";
 
 export const Home = () => {
-
   return (
-    <main className="h-screen w-full bg-radial-gradient bg-cover bg-center ">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pb-8">
+    <main className="relative w-full h-screen bg-center bg-cover bg-radial-gradient">
+      <div className="flex flex-col items-center justify-between h-full max-w-screen-lg gap-16 px-4 pb-8 mx-auto md:flex-row">
         <section className="flex flex-col justify-center h-full mt-[4.5rem]">
-          <p className=" flex space-x-3 text-base sm:text-base text-gray-400 mt-4 text-center">
-          ¡Gracias por contactarme!
+          <p className="flex mt-4 space-x-3 text-base text-center text-gray-400 sm:text-base">
+            ¡Gracias por contactarme!
           </p>
-      
-          <h1 className="text-5xl mt-4 sm:text-7xl font-bold text-orange-500 font-secondary py-4">
-           Desarrollador Web.  
+
+          <h1 className="py-4 mt-4 text-5xl font-bold text-orange-500 sm:text-7xl font-secondary">
+            Desarrollador <br /> Web.
           </h1>
 
-          <section className="flex flex-wrap mt-5 justify-center items-center gap-4 sm:gap-12">
+          <section className="flex flex-wrap items-center justify-center gap-4 mt-5 sm:gap-12">
             <Social />
 
             <button
@@ -30,14 +29,14 @@ export const Home = () => {
             </button>
           </section>
         </section>
-        <div className="text-center mb-8">
+        <div className="items-center mx-8 mb-8 text-center">
           <img
             src={profile}
             alt="profile"
-            className="rounded-2xl w-2/3 border sm:w-full md:w-full p-1 mx-auto sm:mt-6 "
+            className="object-cover p-1 mx-auto border rounded-full w-72 sm:w-96 sm:mt-6"
           />
         </div>
-        <div className="flex flex-col lg:absolute lg:bottom-0 animate-bounce">
+        <div className="flex flex-col items-center justify-center lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:bottom-0 animate-bounce">
           <MdKeyboardDoubleArrowDown
             size={80}
             color="white"
@@ -45,8 +44,6 @@ export const Home = () => {
           />
         </div>
       </div>
-
-   
     </main>
   );
 };
